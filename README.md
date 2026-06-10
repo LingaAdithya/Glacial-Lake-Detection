@@ -1,4 +1,8 @@
 # Technical and Evaluation Report
+Submission by: Dr. S.Kiruthika - Assistant Professor, VIT Chennai
+Dr. J. Joshan Athanesious, VIT Chennai
+Linga Adithya K, student - VIT Chennai
+
 
 # 1. Technical Report
 
@@ -354,3 +358,7 @@ The proposed framework combines:
 to effectively utilize both labeled and unlabeled satellite imagery.
 
 Experimental results demonstrate that the proposed approach achieves strong segmentation performance despite limited labeled data availability. The combination of supervised and semi-supervised learning techniques enables accurate extraction of glacial lake regions and provides a robust framework for remote sensing segmentation applications.
+
+# Segmentation masks of all the images: https://drive.google.com/drive/folders/1_XoKI2QwJqksLKMCc-w_cELq7DWTlpmn?usp=sharing
+# Trained Models: https://drive.google.com/drive/folders/1mz2PI8zhoNIigY70jdinwdDS7cykSyv_?usp=sharing
+
