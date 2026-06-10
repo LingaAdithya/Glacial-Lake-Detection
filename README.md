@@ -1,7 +1,5 @@
 # Technical and Evaluation Report
-Submission by: Dr. S.Kiruthika - Assistant Professor, VIT Chennai
-Dr. J. Joshan Athanesious, VIT Chennai
-Linga Adithya K, student - VIT Chennai
+Submission by: Dr. S.Kiruthika - Assistant Professor, VIT Chennai. Dr. J. Joshan Athanesious, VIT Chennai. Linga Adithya K, student - VIT Chennai.
 
 
 # 1. Technical Report
