@@ -359,4 +359,5 @@ Experimental results demonstrate that the proposed approach achieves strong segm
 
 # Segmentation masks of all the images: https://drive.google.com/drive/folders/1_XoKI2QwJqksLKMCc-w_cELq7DWTlpmn?usp=sharing
 # Trained Models: https://drive.google.com/drive/folders/1mz2PI8zhoNIigY70jdinwdDS7cykSyv_?usp=sharing
+# Explanation Video: https://drive.google.com/file/d/1ate3AL6HXG_VCOPPecE4ZuE6fWEq1CjJ/view?usp=sharing
 
