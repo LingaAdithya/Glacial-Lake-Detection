@@ -356,6 +356,32 @@ The proposed framework combines:
 to effectively utilize both labeled and unlabeled satellite imagery.
 
 Experimental results demonstrate that the proposed approach achieves strong segmentation performance despite limited labeled data availability. The combination of supervised and semi-supervised learning techniques enables accurate extraction of glacial lake regions and provides a robust framework for remote sensing segmentation applications.
+## Validation Results
+
+The final model was evaluated on an independent validation dataset using Test-Time Augmentation (TTA) with horizontal and vertical flipping. Predictions were converted to binary masks using a threshold of 0.5 and evaluated against ground-truth annotations.
+
+### Dataset-Level Performance
+
+| Metric                        |      Score |
+| ----------------------------- | ---------: |
+| IoU (Intersection over Union) | **50.79%** |
+| Dice Score (F1 Score)         | **67.36%** |
+| Precision                     | **71.12%** |
+| Recall                        | **63.98%** |
+| Accuracy                      | **98.63%** |
+| Cohen's Kappa                 | **66.66%** |
+
+### Key Observations
+
+* Strong pixel-level classification accuracy (**98.63%**).
+* Good segmentation overlap with a Dice Score of **67.36%**.
+* Higher precision than recall indicates fewer false positives while maintaining robust lake detection.
+* Cohen's Kappa of **66.66%** demonstrates substantial agreement with ground-truth masks.
+* Results confirm the effectiveness of the semi-supervised learning pipeline, including pseudo-labeling, Mean Teacher training, Bidirectional Copy-Paste augmentation, and Test-Time Augmentation.
+
+These results demonstrate the model's ability to generalize to previously unseen satellite imagery and reliably segment glacial lake regions.
+
+Validation Result Images: https://drive.google.com/drive/folders/1bgaH0fXQ7-Fjeb51G-wVR2DTNIbMlFDC?usp=sharing
 
 # Segmentation masks of all the images: https://drive.google.com/drive/folders/1_XoKI2QwJqksLKMCc-w_cELq7DWTlpmn?usp=sharing
 # Trained Models: https://drive.google.com/drive/folders/1mz2PI8zhoNIigY70jdinwdDS7cykSyv_?usp=sharing
